@@ -1,6 +1,3 @@
-from tokenize import Double
-
-
 n = input("Nhap so: ")
 
 while(n is str):
