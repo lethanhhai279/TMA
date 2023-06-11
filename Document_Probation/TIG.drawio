@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T17:34:43.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ti_KZ78MNN4skbWLIi0k" version="21.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-11T17:44:18.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="m9XXvObI6WAww7gaekoy" version="21.3.7" type="github" pages="2">
   <diagram name="Trang-1" id="wai0X3ZslnKfNHlrnv_L">
     <mxGraphModel dx="1050" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MzbNPjjcZJTgGknEUtkk" name="Trang-2">
-    <mxGraphModel dx="1235" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -237,6 +237,9 @@
         <mxCell id="WsESO1UywNf-eRHeUGvH-40" value="Are file is genarated?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="790" y="540" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-42" target="WsESO1UywNf-eRHeUGvH-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WsESO1UywNf-eRHeUGvH-42" value="Monitor file is synchoried between two folder" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="770" y="390" width="120" height="60" as="geometry" />
         </mxCell>
@@ -248,6 +251,39 @@
         </mxCell>
         <mxCell id="WsESO1UywNf-eRHeUGvH-52" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="830" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-53" target="WsESO1UywNf-eRHeUGvH-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-53" value="Is file sync between 2 folder?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-55" target="WsESO1UywNf-eRHeUGvH-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-55" value="Convert latest xml file to csv" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-57" target="WsESO1UywNf-eRHeUGvH-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-57" target="WsESO1UywNf-eRHeUGvH-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-57" value="Is xml file convert to csv?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-59" value="The file is already&amp;nbsp;exist" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-61" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-62" value="Push to InfluxDB" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1171" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-65" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="80" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
