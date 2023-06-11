@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T17:01:15.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KyhjUtKN9jZIfYvqjIUc" version="21.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-11T17:06:53.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YX9X2n2rqn5R-2H6ePvA" version="21.3.7" type="github" pages="2">
   <diagram name="Trang-1" id="wai0X3ZslnKfNHlrnv_L">
     <mxGraphModel dx="1050" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -137,8 +137,25 @@
         <mxCell id="WsESO1UywNf-eRHeUGvH-13" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="583" y="470" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WsESO1UywNf-eRHeUGvH-16" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WsESO1UywNf-eRHeUGvH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-16" target="WsESO1UywNf-eRHeUGvH-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="190" />
+              <mxPoint x="140" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-16" value="Is syncthing start complete?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-18" target="WsESO1UywNf-eRHeUGvH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-18" value="Start Syncthing on VM and gNB server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-21" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
