@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T17:06:53.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YX9X2n2rqn5R-2H6ePvA" version="21.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-11T17:34:43.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ti_KZ78MNN4skbWLIi0k" version="21.3.7" type="github" pages="2">
   <diagram name="Trang-1" id="wai0X3ZslnKfNHlrnv_L">
     <mxGraphModel dx="1050" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MzbNPjjcZJTgGknEUtkk" name="Trang-2">
-    <mxGraphModel dx="1235" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,11 +131,19 @@
         <mxCell id="WsESO1UywNf-eRHeUGvH-9" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="613" y="380" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-11" target="WsESO1UywNf-eRHeUGvH-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="467" y="595" />
+              <mxPoint x="467" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WsESO1UywNf-eRHeUGvH-11" value="xml file is genated in bin folder&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="523" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="523" y="565" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WsESO1UywNf-eRHeUGvH-13" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="583" y="470" width="60" height="30" as="geometry" />
+          <mxGeometry x="583" y="450" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WsESO1UywNf-eRHeUGvH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-16" target="WsESO1UywNf-eRHeUGvH-18">
           <mxGeometry relative="1" as="geometry">
@@ -145,8 +153,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-16" target="WsESO1UywNf-eRHeUGvH-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WsESO1UywNf-eRHeUGvH-16" value="Is syncthing start complete?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="200" width="80" height="80" as="geometry" />
+          <mxGeometry x="310" y="200" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WsESO1UywNf-eRHeUGvH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-18" target="WsESO1UywNf-eRHeUGvH-16">
           <mxGeometry relative="1" as="geometry" />
@@ -155,7 +166,88 @@
           <mxGeometry x="80" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WsESO1UywNf-eRHeUGvH-21" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="160" width="60" height="30" as="geometry" />
+          <mxGeometry x="200" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-24" target="WsESO1UywNf-eRHeUGvH-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-24" value="Connect gNB and VM to sync file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-26" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-27" target="WsESO1UywNf-eRHeUGvH-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="570" />
+              <mxPoint x="260" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-27" target="WsESO1UywNf-eRHeUGvH-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-27" value="Are two server connected?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="515" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-30" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-31" target="WsESO1UywNf-eRHeUGvH-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-31" value="Config path folder monitored by syncthing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-33" target="WsESO1UywNf-eRHeUGvH-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="583" y="780" />
+              <mxPoint x="350" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-33" target="WsESO1UywNf-eRHeUGvH-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-33" value="Is folder monitored by syncthing?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="543" y="680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-36" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-37" target="WsESO1UywNf-eRHeUGvH-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-37" value="Check identity file is genarated by syncthing in folder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-40" target="WsESO1UywNf-eRHeUGvH-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsESO1UywNf-eRHeUGvH-40" target="WsESO1UywNf-eRHeUGvH-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="580" />
+              <mxPoint x="910" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-40" value="Are file is genarated?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-42" value="Monitor file is synchoried between two folder" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-44" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="643" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-50" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="625" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WsESO1UywNf-eRHeUGvH-52" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="490" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
